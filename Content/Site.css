@@ -1,0 +1,55 @@
+﻿/* Header and Footer Styles */
+header, .site-footer {
+    background-color: #484e54; /* Match the color for both header and footer */
+    color: white;
+    padding: 20px;
+}
+
+.header-content, .footer-content {
+    max-width: 1200px; /* Adjust based on your layout */
+    margin: 0 auto;
+    text-align: center; /* Center-align text */
+}
+
+.site-header {
+    margin: 0;
+    font-size: 24px;
+}
+
+.logo {
+    height: 50px; /* Adjust size as needed */
+    vertical-align: middle;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center-align navigation items */
+}
+
+.top-nav ul li {
+    margin: 0 15px; /* Space between menu items */
+}
+
+.top-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+.site-footer {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
